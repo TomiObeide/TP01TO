@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4b0082;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 4px solid #8b0000;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+main {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2.titulo {
+    font-size: 1.5rem;
+    color: #8b0000;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+ul.museos-lista {
+    list-style-type: square;
+    padding-left: 2rem;
+}
+
+ul.museos-lista li {
+    margin-bottom: 0.5rem;
+}
+
+ul.museos-lista li a {
+    text-decoration: none;
+    color: #4b0082;
+    transition: color 0.3s ease;
+}
+
+ul.museos-lista li a:hover {
+    color: #8b0000;
+}
+
+button {
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4b0082;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 95%;
+        padding: 0.5rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    h2.titulo {
+        font-size: 1.2rem;
+    }
+}
